@@ -1,10 +1,11 @@
 import "./App.css";
-
+import Chatlistenner from "./components/tmi";
 function App() {
   return (
     <>
       <div className="App">
-        <p>HELLO ITS ME</p>
+        <h1>HELLO ITS ME</h1>
+        <Chatlistenner />
       </div>
     </>
   );
